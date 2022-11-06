@@ -56,12 +56,12 @@ img.robot{
 
 #right{
   text-align: right;
-transform: translate(0%, -160%);
+transform: translate(0%, -145%);
 }
 
 #center{
   text-align: center;
-transform: translate(0%, -230%);
+transform: translate(0%, -220%);
 }
 
 header {
@@ -118,7 +118,7 @@ background: linear-gradient(to right top, #1f3864, #FFD700);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animate 1s linear infinite;
-  transform: translate(0%, -200%);
+  transform: translate(0%, -450%);
 }
 
 @keyframes animate{
@@ -132,8 +132,6 @@ background: linear-gradient(to right top, #1f3864, #FFD700);
 main h2{
   font-size: 100px;
   text-align: center;
- position: relative;
-  bottom: 225;
 }
 footer {
   grid-area: footer;
