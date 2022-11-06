@@ -40,25 +40,30 @@ body{
 
 img.team{
   margin-top: 30px;
-  width: 375px;
-  height: 320px;
+  width: 600px;
+  height: auto;
   border: 4px solid #1f3864;
 }
 img.logo{
-  width: 150;
+  width: 200px;
   height: auto;
-  position: relative; 
-  bottom: 165px;
-  left: 310px;
 }
 
 img.robot{
-  width: 200;
+  width: 250px;
   height: auto;
-  position: relative;
-  bottom: 165;
-  left: -85;
 }
+
+#right{
+  text-align: right;
+transform: translate(0%, -160%);
+}
+
+#center{
+  text-align: center;
+transform: translate(0%, -230%);
+}
+
 header {
   grid-area: header;
   background: var(--er-bg);
@@ -104,7 +109,7 @@ main {
 
 main h1 {
   text-align: left;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 .gradient-text { 
@@ -113,6 +118,7 @@ background: linear-gradient(to right top, #1f3864, #FFD700);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animate 1s linear infinite;
+  transform: translate(0%, -200%);
 }
 
 @keyframes animate{
