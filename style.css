@@ -50,7 +50,7 @@ img.logo{
   width: 300px;
   height: auto;
   position: relative;
-  bottom: 60%;
+  bottom: 100%;
   left: 45%;
 }
 
@@ -58,7 +58,7 @@ img.robot{
   width: 400px;
   height: auto;
   position: relative;
-  bottom: 80%;
+  bottom: 130%;
   left: 25%;
 }
 
@@ -75,6 +75,7 @@ nav {
   background: var(--nav-bg);
   color: var(--nav-norm);
   border-left: 2px solid black;
+  height: 60.6%;
 }
 
 nav a {
@@ -101,6 +102,7 @@ main {
   color: var(--text-c);
   padding: 5px;
   grid-area: main;
+  height: 60%;
   text-align: center;
   font-family: Acme;
   border-right: 2px solid black;
@@ -113,7 +115,7 @@ main h1 {
 
 h1.slogan{
   position: relative;
-  bottom: 42%
+  bottom: 70%
 }
 h1.gradient-text { 
 background: linear-gradient(to right top, #1f3864, #FFD700);
@@ -122,7 +124,7 @@ background: linear-gradient(to right top, #1f3864, #FFD700);
   -webkit-text-fill-color: transparent;
   animation: animate 1s linear infinite;
   position: relative;
-  bottom: 35%;
+  bottom: 45%;
   left: 0%;
   text-align: center;
 }
@@ -146,6 +148,8 @@ footer {
   background: var(--er-bg);
   color: var(--text-c);
   border: 2px solid black;
+  position: relative;
+  bottom: 1300%;
 }
 
 footer p {
