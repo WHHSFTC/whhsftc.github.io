@@ -49,13 +49,17 @@ img.team{
 img.logo{
   width: 300px;
   height: auto;
-  transform: translate(260%, -330%);
+  position: relative;
+  bottom: 60%;
+  left: 45%;
 }
 
 img.robot{
   width: 400px;
   height: auto;
-  transform: translate(100%, -375%);
+  position: relative;
+  bottom: 80%;
+  left: 25%;
 }
 
 
@@ -108,7 +112,8 @@ main h1 {
 }
 
 h1.slogan{
-  transform: translate(0%, -150%);
+  position: relative;
+  bottom: 42%
 }
 h1.gradient-text { 
 background: linear-gradient(to right top, #1f3864, #FFD700);
@@ -116,7 +121,9 @@ background: linear-gradient(to right top, #1f3864, #FFD700);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animate 1s linear infinite;
-  transform: translate(0%, -500%);
+  position: relative;
+  bottom: 35%;
+  left: 0%;
   text-align: center;
 }
 
@@ -159,14 +166,14 @@ header h1 {
   transform: translate(0%, 20%);
 }
 
-main h3{
+/*main h3{
   font-size: 20px;
   font-weight: bold;
   transform: translate(35%, -720%);
-}
+}*/
 
-#underline{
+/*#underline{
   text-decoration: underline;
   font-size: 20px;
-}
+}*/
 
