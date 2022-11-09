@@ -116,7 +116,7 @@ background: linear-gradient(to right top, #1f3864, #FFD700);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animate 1s linear infinite;
-  transform: translate(0%, -450%);
+  transform: translate(0%, -500%);
   text-align: center;
 }
 
