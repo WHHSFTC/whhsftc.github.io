@@ -23,12 +23,12 @@
 
 #wrapper {
   display: grid;
-  grid-template-columns: 150px 1fr;
-  grid-template-rows: 100px auto 50px;
+  grid-template-columns: 10% 1fr;
+  grid-template-rows: 5% auto 3%;
   grid-template-areas: "header header"
                        "nav main"
                        "footer footer";
-}
+} 
 
 h1 {
   margin-bottom: 8px;
@@ -44,16 +44,18 @@ img.team{
   height: auto;
   border: 4px solid #1f3864;
 }
+
+
 img.logo{
   width: 300px;
   height: auto;
-  transform: translate(-115%, -385%);
+  transform: translate(260%, -330%);
 }
 
 img.robot{
-  width: 350px;
+  width: 400px;
   height: auto;
-  transform: translate(-190%, -280%);
+  transform: translate(100%, -375%);
 }
 
 
@@ -103,16 +105,19 @@ main {
 main h1 {
   text-align: left;
   font-size: 100px;
-  transform: translate(0%, -142%);
 }
 
-.gradient-text { 
+h1.slogan{
+  transform: translate(0%, -150%);
+}
+h1.gradient-text { 
 background: linear-gradient(to right top, #1f3864, #FFD700);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animate 1s linear infinite;
-  transform: translate(0%, -775%);
+  transform: translate(0%, -450%);
+  text-align: center;
 }
 
 @keyframes animate{
@@ -123,10 +128,12 @@ background: linear-gradient(to right top, #1f3864, #FFD700);
    filter: hue-rotate(360deg); 
   } 
 }
+
 main h2{
   font-size: 100px;
   text-align: center;
 }
+
 footer {
   grid-area: footer;
   background: var(--er-bg);
@@ -163,15 +170,3 @@ main h3{
   font-size: 20px;
 }
 
-/*
-main h4{
-  text-align: left;
-transform: translate(80%, -1475%);
-}
-
-h4 ul{
-  list-style-type: space-counter;
-  padding-left: 0px;
-  text-align: left;
-}
- */
