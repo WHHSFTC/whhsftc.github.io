@@ -1,0 +1,19 @@
+---
+title: "FTC Team 6133 The NUTS!"
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE, warning = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Welcome! This is a website designed to give "The NUTS!" a digital face.
+
+```{r team_img, out.width = "2500px"}
+knitr::include_graphics("images/robotics-teamPic.png")
+```
+
+```{r acronym, out.width = "200px"}
+htmltools::includeHTML("acronym.html")
+```
+

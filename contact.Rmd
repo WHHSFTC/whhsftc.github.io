@@ -1,0 +1,16 @@
+---
+title: "Contact Us"
+theme: theme.css
+footer: _footer.html
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Feel free to connect with us at our socials below!
+```{r contact, out.width = "200px"}
+htmltools::includeHTML("contact2.html")
+```
+

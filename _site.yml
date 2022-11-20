@@ -1,0 +1,15 @@
+name: "."
+title: "FTC Team 6133 The NUTS!"
+theme: theme.css
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "History"
+      href: history.html
+    - text: "Contact"
+      href: contact.html
+output: distill::distill_article
