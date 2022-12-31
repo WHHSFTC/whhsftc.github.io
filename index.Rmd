@@ -1,5 +1,5 @@
 ---
-title: "FTC Team 6133 "The NUTS!""
+title: "FTC Team 6133 \"The NUTS!\""
 site: distill::distill_website
 ---
 

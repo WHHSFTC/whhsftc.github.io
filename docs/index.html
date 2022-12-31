@@ -95,20 +95,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="FTC Team 6133 The NUTS!"/>
+  <meta property="og:title" content="FTC Team 6133 &quot;The NUTS!&quot;"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="FTC Team 6133 The NUTS!"/>
+  <meta property="og:site_name" content="FTC Team 6133 &quot;The NUTS!&quot;"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="FTC Team 6133 The NUTS!"/>
+  <meta property="twitter:title" content="FTC Team 6133 &quot;The NUTS!&quot;"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site"]}},"value":[{"type":"character","attributes":{},"value":["FTC Team 6133 The NUTS!"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site"]}},"value":[{"type":"character","attributes":{},"value":["FTC Team 6133 \"The NUTS!\""]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -786,6 +786,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1858,15 +1859,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2375,7 +2382,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2395,7 +2402,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"FTC Team 6133 The NUTS!","authors":[]}
+{"title":"FTC Team 6133 \"The NUTS!\"","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2403,7 +2410,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">FTC Team 6133 The NUTS!</a>
+<a href="index.html" class="title">FTC Team 6133 "The NUTS!"</a>
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
@@ -2419,7 +2426,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>FTC Team 6133 The NUTS!</h1>
+<h1>FTC Team 6133 “The NUTS!”</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2427,22 +2434,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<h3
-id="welcome-this-is-a-website-designed-to-give-the-nuts-a-digital-face.">Welcome!
-This is a website designed to give “The NUTS!” a digital face.</h3>
+<h3 id="welcome-this-is-a-website-designed-to-give-the-nuts-a-digital-face.">Welcome! This is a website designed to give “The NUTS!” a digital face.</h3>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="images/robotics-teamPic.png" width="2500px" /></p>
 </div>
 <div class="layout-chunk" data-layout="l-body">
 <div style = "text-align: justify">
-<font size = "10"><b>N</b>ever give up</font><br><br>
-<font size = "10"><b>U</b>tilize your skills</font><br><br>
-<font size = "10"><b>T</b>hink outside of the box</font><br><br>
-<font size = "10"><b>S</b>hare memories</font><br><br>
+  <font size = "10"><b>N</b></font><font size = "6">ever give up</font><br><br>
+  <font size = "10"><b>U</b></font><font size = "6">tilize your skills</font><br><br>
+  <font size = "10"><b>T</b></font><font size = "6">hink outside of the box</font><br><br>
+  <font size = "10"><b>S</b></font><font size = "6">hare memories</font><br><br>
 </div>
 </div>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2469,8 +2473,9 @@ class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"><
 <a href = "https://www.twitter.com/whhsnuts/"><img src = "images/twitter.png" alt = "Twitter Logo" style = "width:40px;height:40px;"></img></a>
    
 <a href = "https://github.com/whhsftc"><img src = "images/github.png" alt = "Github Logo" style = "width:40px;height:40px;"></img></a>
-</br> Last updated 11/20/22. Website made and maintained by
-<a href = "https://github.com/TejasMundhe">Tejas Mundhe</a>.</p>
+</br> Last updated 12/30/22. Website made and maintained by
+<a href = "https://github.com/TejasMundhe">Tejas Mundhe</a> and Abhinav
+Goel.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 

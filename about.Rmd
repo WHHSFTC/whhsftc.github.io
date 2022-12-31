@@ -2,6 +2,7 @@
 title: "About Us"
 theme: theme.css
 footer: _footer.html
+output: distill::distill_article
 ---
 
 ```{r setup, include=FALSE}
@@ -9,3 +10,16 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Who Are We?
+The Walnut Hills High School Robotics team, 6133 “The NUTS!”, is a school team from Cincinnati, Ohio, and participates in [First Tech Challenge](https://www.firstinspires.org/robotics/ftc) (FTC). We have weekly practices on Wednesday (3:15 - 4:30), Friday (4:00-8:00), and Saturday (10:30-3:00) at the [Manufactory](https://themanufactory.us/) (in Sharonville, Ohio), where we work as a team to design, build, program, and create robots.
+
+The team is a student-led initiative that works to bring together a group of like-minded people in order to get hands-on experience with the engineering process, machinery, programming and CAD skills, and most importantly having fun! 
+
+Our mission is to send ripples of positive mojo and instill engineering, programming, and design thinking in our team, community, and world to expand our family sponsors, coaches, mentors, allies, team members and mentees. We will challenge our engineering and design abilities while upholding the values of FIRST to create a competitive robot that efficiently balances form, function, and aesthetics. To leave a lasting impact behind we will keep detailed documentation. Through hard work, determination, and perseverance we, Team 6133 “The NUTS!” have the power to spread the values and goals of FIRST within our community.
+
+## Why Join?
+We wish to attract as many 9-12 graders as possible into the engineering field, so they sustain those same interests in their future careers. *No prior coding, design, or building experience is required.*
+
+Not only can robotics be a launching pad for students to recognize their true passions, but also for those very passionate, robotics can develop students into confident leaders. In addition, robotics teaches students how to communicate across different technology platforms as well as help to develop essential engineering skills in the design, build, and programming fields. Furthermore, robotics can prompt students to become involved with the community and give back to future generations. Lastly, robotics assists in teaching essential teamwork skills as it provides students with basic communication skills and a better understanding of other cultures.
+
+## Our School
+Walnut Hills High School is a college preparatory school for students in grades 7-12 in Cincinnati, Ohio. In addition to the robotics team, Walnut offers many [STEM courses](http://www.walnuthillseagles.com/pdfs/2022-2023_Course_Guide.pdf) and activities, all of which are great resources for Walnut students who are interested in these fields.

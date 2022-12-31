@@ -88,21 +88,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>FTC Team 6133 The NUTS!: History</title>
+  <title>FTC Team 6133 "The NUTS!": History</title>
 
 
   <link rel="icon" type="image/png" href="images/WH-Logo.png"/>
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="FTC Team 6133 The NUTS!: History"/>
+  <meta property="og:title" content="FTC Team 6133 &quot;The NUTS!&quot;: History"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="FTC Team 6133 The NUTS!"/>
+  <meta property="og:site_name" content="FTC Team 6133 &quot;The NUTS!&quot;"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="FTC Team 6133 The NUTS!: History"/>
+  <meta property="twitter:title" content="FTC Team 6133 &quot;The NUTS!&quot;: History"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
@@ -786,6 +786,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1858,15 +1859,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2375,7 +2382,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2403,7 +2410,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">FTC Team 6133 The NUTS!</a>
+<a href="index.html" class="title">FTC Team 6133 "The NUTS!"</a>
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
@@ -2428,8 +2435,231 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <h2 id="our-teams-history-by-season">Our Team’s History by Season</h2>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<h3 id="powerplay-current-2022-2023">PowerPlay (Current: 2022-2023)</h3>
+<ul>
+<li>Kentucky Beaker Meet #1 (League Play)
+<ul>
+<li>Undefeated Robot (5-0)</li>
+</ul></li>
+<li>Kentucky Dunker Meet #1 (League Play)
+<ul>
+<li>Undefeated Robot (5-0)</li>
+</ul></li>
+</ul>
+<h3 id="freight-frenzy-2021-2022">Freight Frenzy (2021-2022)</h3>
+<ul>
+<li>Wright Flyer Katherine Qualifier
+<ul>
+<li>Inspire Award 1st Place</li>
+</ul></li>
+<li>Ohio State Championship
+<ul>
+<li>Inspire Award 1st Place</li>
+</ul></li>
+<li>Houston World Championships
+<ul>
+<li>Control Award Finalist</li>
+</ul></li>
+</ul>
+<h3 id="ultimate-goal-2020-2021">Ultimate Goal (2020-2021)</h3>
+<ul>
+<li>Ohio State University Qualifier
+<ul>
+<li>Compass Award 1st Place</li>
+<li>Promote Award 1st Place</li>
+<li>Collins Aerospace Innovate 1st Place</li>
+<li>Robot Performance 3rd Place</li>
+<li>High Score of 340 - Set Top Three Score Worldwide</li>
+</ul></li>
+<li>Wright Flyer Qualifier
+<ul>
+<li>Control Award 2nd Place</li>
+<li>Think Award 2nd Place</li>
+<li>Robot Performance 3rd Place</li>
+</ul></li>
+<li>Ohio State Championship
+<ul>
+<li>Inspire Award 2nd Place</li>
+<li>Motivate Award 2nd Place</li>
+<li>Robot Performance 3rd Place</li>
+</ul></li>
+</ul>
+<h3 id="skystone-2019-2020">Skystone (2019-2020)</h3>
+<ul>
+<li>West Virginia Qualifier
+<ul>
+<li>Innovate Award First Place</li>
+<li>Inspire Award Second Place</li>
+<li>Design Award Second Place</li>
+</ul></li>
+<li>Wapakoneta Qualifier
+<ul>
+<li>Finalist Alliance</li>
+<li>Motivate Award 1st Place</li>
+</ul></li>
+<li>Van Wert Qualifier
+<ul>
+<li>Think Award 1st Place</li>
+</ul></li>
+<li>Newark Qualifier
+<ul>
+<li>Collins Aerospace Innovate 1st Place</li>
+<li>Design 2nd Place</li>
+<li>Think Award 3rd Place</li>
+</ul></li>
+</ul>
+<h3 id="rover-ruckus-2018-2019">Rover Ruckus (2018-2019)</h3>
+<ul>
+<li>Ohio State Championship
+<ul>
+<li>Control Award Winners</li>
+</ul></li>
+<li>Bluegrass Invitational Tournament
+<ul>
+<li>Finalist Alliance- First Pick</li>
+</ul></li>
+<li>Indiana Robotics Invitational
+<ul>
+<li>Winning Alliance- First Pick</li>
+</ul></li>
+</ul>
+<h3 id="relic-recovery-2017-2018">Relic Recovery (2017-2018)</h3>
+<ul>
+<li>West Virginia State Championship
+<ul>
+<li>Semi-Finalist Alliance</li>
+<li>Think Award Second Place</li>
+</ul></li>
+<li>Dayton Regional
+<ul>
+<li>Winning Alliance- First Pick</li>
+<li>Inspire Award Winner</li>
+<li>Rockwell Collins Innovate Award Second Place</li>
+<li>Ohio State Championship Qualifier</li>
+</ul></li>
+<li>Southwest Pennsylvania Regional
+<ul>
+<li>Winning Alliance- First Pick</li>
+<li>Think Award Winners</li>
+<li>Connect Award Second Place</li>
+</ul></li>
+<li>Ohio State Championship
+<ul>
+<li>Winning Alliance- Second Pick</li>
+<li>North Super Regional Qualifier</li>
+</ul></li>
+<li>North Super Regional
+<ul>
+<li>Tinker Division Alliance Captain- Semi-Finalist</li>
+<li>Qualified for World Championships</li>
+</ul></li>
+<li>Detroit World Championship
+<ul>
+<li>Edison Division Alliance Captain- Semi-Finalist</li>
+</ul></li>
+</ul>
+<h3 id="velocity-vortex-2016-2017">Velocity Vortex (2016-2017)</h3>
+<ul>
+<li>Dayton Regional
+<ul>
+<li>Finalist Alliance- First Pick</li>
+<li>Think Award Winner</li>
+<li>Ohio State Championship Qualifier</li>
+</ul></li>
+<li>Kentucky State Championship
+<ul>
+<li>Finalist Alliance- First Pick</li>
+<li>Motivate Award Winner</li>
+<li>Control Award Second Place</li>
+<li>Rockwell Collins Innovate Award Third Place</li>
+</ul></li>
+</ul>
+<h3 id="res-q-2015-2016">Res-Q (2015-2016)</h3>
+<ul>
+<li>Newark Regional
+<ul>
+<li>Winning Alliance- First Pick</li>
+<li>Ohio State Championship Qualifier</li>
+</ul></li>
+<li>Ohio State Championship
+<ul>
+<li>Inspire Award Second Place</li>
+<li>Motivate Award Winner</li>
+<li>North Super Regional Qualifier</li>
+</ul></li>
+<li>North Super Regional
+<ul>
+<li>Ortberg Division Semi-Finalist</li>
+</ul></li>
+</ul>
+<h3 id="cascade-effect-2014-2015">Cascade Effect (2014-2015)</h3>
+<ul>
+<li>Northern Indiana Regional
+<ul>
+<li>Winning Alliance- First Pick</li>
+<li>PTC Design Award Winners</li>
+<li>Indiana State Championship Qualifier</li>
+</ul></li>
+<li>Dayton Regional
+<ul>
+<li>Winning Alliance Captain</li>
+<li>Promote Award Winner</li>
+<li>PTC Design Award Winner</li>
+<li>Ohio State Championship Qualifier</li>
+</ul></li>
+<li>Columbus Regional
+<ul>
+<li>Finalist Alliance Captain</li>
+</ul></li>
+<li>Ohio State Championship
+<ul>
+<li>Finalist Alliance Captain</li>
+<li>North Super Regional Qualifier</li>
+</ul></li>
+<li>North Super Regional
+<ul>
+<li>Winning Alliance- First Pick</li>
+<li>World Championship Qualifier</li>
+</ul></li>
+<li>World Championship
+<ul>
+<li>Franklin Division Semi-Finalist</li>
+</ul></li>
+</ul>
+<h3 id="block-party-2013-2014">Block Party (2013-2014)</h3>
+<ul>
+<li>Cleveland Regional
+<ul>
+<li>Connect Award Winners</li>
+<li>Ohio State Championship Qualifiers</li>
+</ul></li>
+<li>Cincinnati Regional
+<ul>
+<li>Winning Alliance - 1st pick</li>
+</ul></li>
+<li>Southwest Indiana Regional
+<ul>
+<li>Winning Alliance - 1st pick</li>
+<li>Indiana State Championship Qualifier</li>
+</ul></li>
+<li>Ohio State Championship
+<ul>
+<li>Finalist Alliance - 2nd pick</li>
+</ul></li>
+<li>Indiana State Championship
+<ul>
+<li>PTC Design Award Winner</li>
+</ul></li>
+</ul>
+<h3 id="ring-it-up-2012-2013">Ring It Up (2012-2013)</h3>
+<ul>
+<li>Dayton Regional
+<ul>
+<li>Think Award Winners</li>
+<li>Ohio State Championship Qualifiers</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div></li>
+</ul>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2456,8 +2686,9 @@ class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"><
 <a href = "https://www.twitter.com/whhsnuts/"><img src = "images/twitter.png" alt = "Twitter Logo" style = "width:40px;height:40px;"></img></a>
    
 <a href = "https://github.com/whhsftc"><img src = "images/github.png" alt = "Github Logo" style = "width:40px;height:40px;"></img></a>
-</br> Last updated 11/20/22. Website made and maintained by
-<a href = "https://github.com/TejasMundhe">Tejas Mundhe</a>.</p>
+</br> Last updated 12/30/22. Website made and maintained by
+<a href = "https://github.com/TejasMundhe">Tejas Mundhe</a> and Abhinav
+Goel.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 

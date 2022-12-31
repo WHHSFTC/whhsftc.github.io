@@ -11,4 +11,166 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Our Team's History by Season
 
+### PowerPlay (Current: 2022-2023)
+- Kentucky Beaker Meet #1 (League Play)
+  - Undefeated Robot (5-0)
 
+- Kentucky Dunker Meet #1 (League Play)
+  - Undefeated Robot (5-0)
+
+### Freight Frenzy (2021-2022)
+- Wright Flyer Katherine Qualifier
+  - Inspire Award 1st Place
+
+- Ohio State Championship
+  - Inspire Award 1st Place
+
+- Houston World Championships
+  - Control Award Finalist
+
+### Ultimate Goal (2020-2021)
+- Ohio State University Qualifier
+  - Compass Award 1st Place
+  - Promote Award 1st Place
+  - Collins Aerospace Innovate 1st Place
+  - Robot Performance 3rd Place
+  - High Score of 340 - Set Top Three Score Worldwide
+
+- Wright Flyer Qualifier
+  - Control Award 2nd Place
+  - Think Award 2nd Place
+  - Robot Performance 3rd Place
+
+- Ohio State Championship
+  - Inspire Award 2nd Place
+  - Motivate Award 2nd Place
+  - Robot Performance 3rd Place
+
+### Skystone (2019-2020)
+- West Virginia Qualifier
+  - Innovate Award First Place
+  - Inspire Award Second Place
+  - Design Award Second Place
+
+- Wapakoneta Qualifier
+  - Finalist Alliance
+  - Motivate Award 1st Place
+
+- Van Wert Qualifier
+  - Think Award 1st Place
+
+- Newark Qualifier
+  - Collins Aerospace Innovate 1st Place
+  - Design 2nd Place
+  - Think Award 3rd Place
+
+### Rover Ruckus (2018-2019)
+- Ohio State Championship
+  - Control Award Winners
+
+- Bluegrass Invitational Tournament
+  - Finalist Alliance- First Pick
+
+- Indiana Robotics Invitational
+  - Winning Alliance- First Pick
+
+### Relic Recovery (2017-2018)
+- West Virginia State Championship
+  - Semi-Finalist Alliance
+  - Think Award Second Place
+
+- Dayton Regional
+  - Winning Alliance- First Pick
+  - Inspire Award Winner
+  - Rockwell Collins Innovate Award Second Place
+  - Ohio State Championship Qualifier
+
+- Southwest Pennsylvania Regional
+  - Winning Alliance- First Pick
+  - Think Award Winners
+  - Connect Award Second Place
+
+- Ohio State Championship
+  - Winning Alliance- Second Pick
+  - North Super Regional Qualifier
+
+- North Super Regional
+  - Tinker Division Alliance Captain- Semi-Finalist
+  - Qualified for World Championships
+
+- Detroit World Championship
+  - Edison Division Alliance Captain- Semi-Finalist
+
+### Velocity Vortex (2016-2017)
+- Dayton Regional
+  - Finalist Alliance- First Pick
+  - Think Award Winner
+  - Ohio State Championship Qualifier
+
+- Kentucky State Championship
+  - Finalist Alliance- First Pick
+  - Motivate Award Winner
+  - Control Award Second Place
+  - Rockwell Collins Innovate Award Third Place
+
+### Res-Q (2015-2016)
+- Newark Regional
+  - Winning Alliance- First Pick
+  - Ohio State Championship Qualifier
+
+- Ohio State Championship
+  - Inspire Award Second Place
+  - Motivate Award Winner
+  - North Super Regional Qualifier
+
+- North Super Regional
+  - Ortberg Division Semi-Finalist
+
+### Cascade Effect (2014-2015)
+- Northern Indiana Regional
+  - Winning Alliance- First Pick
+  - PTC Design Award Winners
+  - Indiana State Championship Qualifier
+
+- Dayton Regional
+  - Winning Alliance Captain
+  - Promote Award Winner
+  - PTC Design Award Winner
+  - Ohio State Championship Qualifier
+
+- Columbus Regional
+  - Finalist Alliance Captain
+
+- Ohio State Championship
+  - Finalist Alliance Captain
+  - North Super Regional Qualifier
+
+- North Super Regional
+  - Winning Alliance- First Pick
+  - World Championship Qualifier
+
+- World Championship
+  - Franklin Division Semi-Finalist
+
+### Block Party (2013-2014)
+- Cleveland  Regional
+  - Connect Award Winners
+  - Ohio State Championship Qualifiers
+
+- Cincinnati Regional
+  - Winning Alliance - 1st pick
+
+- Southwest Indiana Regional 
+  - Winning Alliance - 1st pick
+  - Indiana State Championship Qualifier
+
+- Ohio State Championship
+  - Finalist Alliance - 2nd pick
+
+- Indiana State Championship
+  - PTC Design Award Winner
+
+### Ring It Up (2012-2013)
+- Dayton Regional
+  - Think Award Winners
+  - Ohio State Championship Qualifiers
