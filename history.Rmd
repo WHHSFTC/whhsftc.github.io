@@ -18,6 +18,20 @@ knitr::opts_chunk$set(echo = FALSE)
 - Kentucky Dunker Meet #1 (League Play)
   - Undefeated Robot (5-0)
 
+- Walnut Hills Qualifier 
+  - Finalist Alliance Captain
+  - 5-2 Robot Record in Qualification Matches
+ 
+- Kentucky State Championships
+  - Winning Alliance Captain
+  - Qualified for FTC World Championships
+  - Compass Award Winner
+  - Control Award Finalist
+  - Design Award Finalist
+  - Think Award Finalist
+  - Promote Award Finalist
+  - Kentucky Metro League First Place 
+
 ### Freight Frenzy (2021-2022)
 - Wright Flyer Katherine Qualifier
   - Inspire Award 1st Place
