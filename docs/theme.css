@@ -76,3 +76,10 @@ d-appendix {
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 
+.acr {
+  text-align: justify;
+}
+
+.wUpdate {
+  background-color: #5FEAF2 ;
+}

@@ -7,7 +7,11 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-### Welcome! This is a website designed to give "The NUTS!" a digital face.
+### Welcome! This is a website designed to give "The NUTS!" a digital face. Learn more [here](about.html).
+```{r updates}
+htmltools::includeHTML("worldsUpdate.html")
+```
+
 
 ```{r team_img, out.width = "2500px"}
 knitr::include_graphics("images/robotics-teamPic.png")

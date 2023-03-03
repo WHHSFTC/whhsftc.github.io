@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
   - Undefeated Robot (5-0)
 
 - Walnut Hills Qualifier 
-  - Finalist Alliance Captain
+  - Finalist Alliance- First Pick
   - 5-2 Robot Record in Qualification Matches
  
 - Kentucky State Championships

@@ -1,0 +1,36 @@
+---
+title: "Support Us"
+theme: theme.css
+footer: _footer.html
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Potential Corporate Sponsors
+The NUTS! would be happy to start a partnership at any level! Our total cost to participate in the World Championship is $20,000, so we would welcome any contribution towards that goal. If you are willing and able to help, please reach out to us at summum6133@gmail.com or send a check to Walnut Hills Alumni Foundation 3250 Victory Pkwy, Cincinnati, OH 45207, earmarked for FTC Robotics. Your tax-deductible contribution will bring us one step closer to the FTC World Championship! 
+
+## Donors
+Please consider donating to our **[GoFundMe](https://gofund.me/a6ca5908)** to support our trip to the [FTC World Championship](https://www.firstchampionship.org/).
+100% of fundraising for the trip will be used for:
+
+- Team, coach, and parent chaperone travel (airline tickets)
+
+- Extra baggage and shipping fees for robotics equipment
+
+- Van rental in Houston
+
+- Team, coach, and parent chaperone lodging costs
+
+- Team, coach, and parent chaperone meals
+
+
+## Current Sponsors
+Thank you to all of our 2022-23 Season Sponsors for making our amazing season possible!
+
+```{r currentSponsors, out.width = "500px"}
+htmltools::includeHTML("currentSponsors.html")
+```
+
