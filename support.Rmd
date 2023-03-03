@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Potential Corporate Sponsors
-The NUTS! would be happy to start a partnership at any level! Our total cost to participate in the World Championship is $20,000, so we would welcome any contribution towards that goal. If you are willing and able to help, please reach out to us at summum6133@gmail.com or send a check to Walnut Hills Alumni Foundation 3250 Victory Pkwy, Cincinnati, OH 45207, earmarked for FTC Robotics. Your tax-deductible contribution will bring us one step closer to the FTC World Championship! 
+The "NUTS!" would be happy to start a partnership at any level! Our total cost to participate in the World Championship is $20,000, but we would welcome any contribution towards that goal. If you are willing and able to help, please reach out to us at summum6133@gmail.com or send a check to the Walnut Hills Alumni Foundation 3250 Victory Pkwy, Cincinnati, OH 45207, earmarked for FTC Robotics. Your tax-deductible contribution will bring us one step closer to the FTC World Championship! 
 
 ## Donors
 Please consider donating to our **[GoFundMe](https://gofund.me/a6ca5908)** to support our trip to the [FTC World Championship](https://www.firstchampionship.org/).
