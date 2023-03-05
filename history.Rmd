@@ -12,83 +12,143 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Our Team's History by Season
 
 ### PowerPlay (Current: 2022-2023)
-- Kentucky Beaker Meet #1 (League Play)
-  - Undefeated Robot (5-0)
+```{r powerplay, out.width = "300px"}
+knitr::include_graphics("images/powerplay.jpg")
+```
 
-- Kentucky Dunker Meet #1 (League Play)
-  - Undefeated Robot (5-0)
+- Kentucky League Play
+  - 10-0 Record
+  - Kentucky State Record High Score of 168
+  
+- Miami University Ohio Qualifier
+  - Winning Alliance Captain
+  - Compass Award Winner
+  - Control Award Winner
+  - Ohio Team Spirit Award Winner
+  - Ohio State Championship Qualifier
+  - Ohio State Record High Score of 193
 
 - Walnut Hills Qualifier 
-  - Finalist Alliance- First Pick
-  - 5-2 Robot Record in Qualification Matches
+  - Hosted 24 Teams
+  - Finalist Alliance
+  - Ohio State Record High Score of 210
  
-- Kentucky State Championships
+- Kentucky State Championship
   - Winning Alliance Captain
-  - Qualified for FTC World Championships
   - Compass Award Winner
-  - Control Award Finalist
-  - Design Award Finalist
-  - Think Award Finalist
-  - Promote Award Finalist
-  - Kentucky Metro League First Place 
+  - Promote Award 2nd Place
+  - Control Award 2nd Place
+  - Design Award 3rd Place
+  - Think Award 3rd Place
+  - Kentucky State Record High Score of 202
+  - World Championship Qualifier
 
 ### Freight Frenzy (2021-2022)
+```{r freight-frenzy, out.width = "300px"}
+knitr::include_graphics("images/freightFrenzy.png")
+```
+
 - Wright Flyer Katherine Qualifier
-  - Inspire Award 1st Place
+  - Inspire Award Winner
+  - Ohio State Championship Qualifier
 
 - Ohio State Championship
-  - Inspire Award 1st Place
+  - Inspire Award Winner
+  - World Championship Qualifier
 
-- Houston World Championships
+- World Championship
   - Control Award Finalist
 
 ### Ultimate Goal (2020-2021)
-- Ohio State University Qualifier
-  - Compass Award 1st Place
-  - Promote Award 1st Place
-  - Collins Aerospace Innovate 1st Place
-  - Robot Performance 3rd Place
+```{r ultimate-goal, out.width = "300px"}
+knitr::include_graphics("images/ultimateGoal.png")
+```
+
+- OSU Scarlet and Gray Qualifier
+  - Collins Aerospace Innovate Award Winner
+  - Robot Performance- 3rd Place
+  - Ohio State Championship Qualifier
+  - Promote Award Winner
+  - Compass Award Winner- Phil Landman
   - High Score of 340 - Set Top Three Score Worldwide
 
 - Wright Flyer Qualifier
   - Control Award 2nd Place
   - Think Award 2nd Place
-  - Robot Performance 3rd Place
+  - Robot Performance- 3rd Place
+  - Inspire Award- 2nd Place
+  
+- Vermont State Championship
+  - Design Award 3rd Place
+  - Control Award 2nd Place
+  - Collins Aerospace Innovate Award Winner
+  - Robot Performance- 2nd Place
+  
+- Gem City II Qualifier
+  - Control Award 3rd Place
+  - Collins Aerospace Innovate Award Winner
+  - Robot Performance Winner
+  - Inspire Award 2nd Place
 
 - Ohio State Championship
-  - Inspire Award 2nd Place
   - Motivate Award 2nd Place
-  - Robot Performance 3rd Place
+  - Robot Performance- 3rd Place
+  - World Championship Qualifier
+
+- World Championship
+  - Cancelled due to Covid-19
+
+- Maryland Tech Invitational
+  - Robot Performance- 19th of 32 Teams
 
 ### Skystone (2019-2020)
-- West Virginia Qualifier
-  - Innovate Award First Place
-  - Inspire Award Second Place
-  - Design Award Second Place
+```{r skystone, out.width = "300px"}
+knitr::include_graphics("images/skystone.png")
+```
 
-- Wapakoneta Qualifier
+- West Virginia State Championship
+  - Semi-Finalist Alliance
+  - Inspire Award 2nd Place
+  - Collins Aerospace Innovate Award Winner
+  - Design Award 2nd Place
+
+- Wapakoneta Ohio Regional Qualifier
   - Finalist Alliance
-  - Motivate Award 1st Place
+  - Motivate Award Winner
 
-- Van Wert Qualifier
-  - Think Award 1st Place
+- Van Wert Ohio Regional Qualifier
+  - Finalist Alliance Captain
+  - Think Award Winner
 
-- Newark Qualifier
-  - Collins Aerospace Innovate 1st Place
-  - Design 2nd Place
-  - Think Award 3rd Place
+- Newark Ohio Regional Qualifier
+  - Finalist Alliance
+  - Ohio Spirit Award Winner
+  - Collins Aerospace Innovate Award Winner
+  - Design Award 2nd Place
+  - Think Award 2nd Place
+  
+- Ohio State Championship
+  - Cancelled due to Covid-19 
 
 ### Rover Ruckus (2018-2019)
+```{r rover-ruckus, out.width = "300px"}
+knitr::include_graphics("images/roverRuckus.png")
+```
+
 - Ohio State Championship
-  - Control Award Winners
+  - Control Award Winner
 
 - Bluegrass Invitational Tournament
-  - Finalist Alliance- First Pick
+  - Finalist Alliance
 
 - Indiana Robotics Invitational
-  - Winning Alliance- First Pick
+  - Winning Alliance
 
 ### Relic Recovery (2017-2018)
+```{r relic-recovery, out.width = "300px"}
+knitr::include_graphics("images/relicRecovery.png")
+```
+
 - West Virginia State Championship
   - Semi-Finalist Alliance
   - Think Award Second Place
@@ -103,31 +163,40 @@ knitr::opts_chunk$set(echo = FALSE)
   - Winning Alliance- First Pick
   - Think Award Winners
   - Connect Award Second Place
+  - Pennsylvania State Championship Qualifier
 
 - Ohio State Championship
-  - Winning Alliance- Second Pick
+  - Winning Alliance
   - North Super Regional Qualifier
 
 - North Super Regional
-  - Tinker Division Alliance Captain- Semi-Finalist
-  - Qualified for World Championships
+  - Tinker Division Semi-Finalist Alliance Captain
+  - World Championship Qualifier
 
-- Detroit World Championship
-  - Edison Division Alliance Captain- Semi-Finalist
+- World Championship
+  - Edison Division Semi-Finalist Alliance Captain
 
 ### Velocity Vortex (2016-2017)
+```{r velocity-vortex, out.width = "200px"}
+knitr::include_graphics("images/velocityVortex.png")
+```
+
 - Dayton Regional
-  - Finalist Alliance- First Pick
+  - Finalist Alliance
   - Think Award Winner
   - Ohio State Championship Qualifier
 
 - Kentucky State Championship
-  - Finalist Alliance- First Pick
+  - Finalist Alliance
   - Motivate Award Winner
   - Control Award Second Place
   - Rockwell Collins Innovate Award Third Place
 
 ### Res-Q (2015-2016)
+```{r res-q, out.width = "300px"}
+knitr::include_graphics("images/res-q.jpg")
+```
+
 - Newark Regional
   - Winning Alliance- First Pick
   - Ohio State Championship Qualifier
@@ -138,12 +207,16 @@ knitr::opts_chunk$set(echo = FALSE)
   - North Super Regional Qualifier
 
 - North Super Regional
-  - Ortberg Division Semi-Finalist
+  - Ortberg Division Semi-Finalist Alliance
 
 ### Cascade Effect (2014-2015)
+```{r cascade-effect, out.width = "300px"}
+knitr::include_graphics("images/cascadeEffect.png")
+```
+
 - Northern Indiana Regional
-  - Winning Alliance- First Pick
-  - PTC Design Award Winners
+  - Winning Alliance
+  - PTC Design Award Winner
   - Indiana State Championship Qualifier
 
 - Dayton Regional
@@ -164,27 +237,35 @@ knitr::opts_chunk$set(echo = FALSE)
   - World Championship Qualifier
 
 - World Championship
-  - Franklin Division Semi-Finalist
+  - Franklin Division Semi-Finalist Alliance
 
 ### Block Party (2013-2014)
-- Cleveland  Regional
-  - Connect Award Winners
-  - Ohio State Championship Qualifiers
+```{r block-party, out.width = "300px"}
+knitr::include_graphics("images/blockParty.png")
+```
+
+- Cleveland Regional
+  - Connect Award Winner
+  - Ohio State Championship Qualifier
 
 - Cincinnati Regional
-  - Winning Alliance - 1st pick
+  - Winning Alliance
 
-- Southwest Indiana Regional 
-  - Winning Alliance - 1st pick
+- Southwest Indiana Regional
+  - Winning Alliance
   - Indiana State Championship Qualifier
 
 - Ohio State Championship
-  - Finalist Alliance - 2nd pick
+  - Finalist Alliance
 
 - Indiana State Championship
   - PTC Design Award Winner
 
 ### Ring It Up (2012-2013)
+```{r ring-it-up, out.width = "300px"}
+knitr::include_graphics("images/ringItUp.png")
+```
+
 - Dayton Regional
-  - Think Award Winners
-  - Ohio State Championship Qualifiers
+  - Think Award Winner
+  - Ohio State Championship Qualifier
